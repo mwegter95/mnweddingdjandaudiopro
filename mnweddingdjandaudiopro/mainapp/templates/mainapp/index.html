@@ -1,0 +1,30 @@
+{% extends 'mainapp/base.html' %}
+
+{% block content %}
+<!-- Hero Section -->
+<section id="hero">
+    <h1>Exceptional DJ Services for Your Wedding</h1>
+    <p>Making your special day unforgettable.</p>
+    <a href="{% url 'services' %}" class="btn">Explore Services</a>
+</section>
+
+<!-- About Section -->
+<section id="about">
+    <h2>About Us</h2>
+    <p>We provide premium DJ services...</p>
+    <a href="{% url 'about' %}" class="btn">Learn More</a>
+</section>
+
+<!-- Services Section -->
+<section id="services-home">
+    <h2>Our Services</h2>
+    <!-- Services highlights will go here -->
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery-home">
+    <h2>Gallery</h2>
+    <!-- Gallery preview will go here -->
+</section>
+{% endblock %}
+
